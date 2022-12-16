@@ -1,0 +1,9 @@
+.app{
+    margin: auto;
+    width: 50%;
+    border: mediumblue;
+    text-align: center;
+    background: #03ffe8;
+    padding: 5rem;
+    border-radius: 4rem;
+}

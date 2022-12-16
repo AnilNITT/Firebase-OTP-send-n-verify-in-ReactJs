@@ -1,5 +1,7 @@
 import React from 'react'
 import firebase from './firebase'
+import "./App.css";
+
 
 class App extends React.Component {
   handleChange = (e) =>{
@@ -61,7 +63,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className='app'>
         <h2>Login Form</h2>
         <form onSubmit={this.onSignInSubmit}>
           <div id="sign-in-button"></div>
